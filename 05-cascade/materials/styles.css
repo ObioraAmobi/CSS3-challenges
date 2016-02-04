@@ -1,43 +1,50 @@
-/* reset browser styles */
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+body{
+	background-color: #cde6ff;
+	padding-left: 20px;
+	background-image: url("images/bg_body.png");
+	background-repeat: no-repeat;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+h1{
+	color: #b1967c;
+	font-size: 60px;
+	padding-top: 80px;
 }
-body {
-	line-height: 1.2;
+h2{
+	color: #e8a063;
+	border-bottom: 3px solid #fff;
+	font-size: 35px;
 }
-ol { 
-	padding-left: 1.4em;
-	list-style: decimal;
+.sbar-head{
+	color: #c4ddf4;
+	padding-left: 10px;
+	border-bottom: none;
 }
-ul {
-	padding-left: 1.4em
-	list-style: square;
+.intro{
+	color: #72a7dc;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-} 
-/* end reset browser styles */
-
-/* basic layout -- 2 columns */
-.main {
+.sidebar{
+	background-color: #e9f5fe;
+	float: right;
+	width: 20%;
+}
+.main{
 	float: left;
-	width: 580px;
+	width: 75%;
 }
-.sidebar {
-	margin-left: 600px;
-	padding: 15px;
-	background: #E9F5FE;
+.subheader{
+	background-image: url("images/bullet_flower.png");
+	background-repeat: no-repeat;
+	padding-left: 78px;
 }
-
+p{
+	margin-left: 80px;
+	clear: both;
+}
+.sbar-text{
+	color: #b19793;
+	padding-left: 10px;
+	margin-left: 0px;
+}
+#intro-text{
+	margin-left: 0px;
+}

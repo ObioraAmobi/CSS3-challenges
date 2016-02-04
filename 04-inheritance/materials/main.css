@@ -1,0 +1,20 @@
+p{
+	color: red;
+}
+h1{
+	color: #B8860B;
+}
+h2{
+	color: #B8860B;
+}
+h3{
+	color: #B8860B;
+}
+body{
+	padding: 30px;
+}
+.text{
+	padding-left: 10px;
+	border-left: 17px solid #B8860B;
+	margin-left: 5%;
+}
