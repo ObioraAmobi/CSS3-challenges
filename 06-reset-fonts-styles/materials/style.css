@@ -1,0 +1,76 @@
+*{
+	font-family: "PTSans";
+}
+
+header, body {
+	width:800px;
+	margin:0 auto;
+}
+header{
+	background-image: url("images/bg_body.png");	
+	height: 135px;
+}
+h1 {
+	width:700px;
+	margin:0 auto;
+}
+h1 {
+	background-image: url("images/bg_banner.jpg");
+	/*
+	background: 
+		url("../img/codeinstitute-logo-square-transparent.png") 
+		no-repeat 
+		scroll 
+		right 420px 
+		top 350px 
+		#9cdaf1
+	;
+	*/
+	height: 135px;
+	border:5px solid white;
+	color: #fc6600;
+	font-size: 40px;
+	z-index: 1;
+}
+.main{
+	padding-top: 10px;
+	background-color: #e1eefd;
+	width:700px;
+	margin:0 auto;
+	border: 5px solid white;
+	border-top: 0;
+}
+h2{
+	border-bottom: 1px solid #9daabc;
+	padding-left: 5px;
+	color: #224b92;
+	font-size: 30px;
+}
+.textmain{
+	background-color: #e1eefd;
+	width: 100%;
+}
+h3{
+	color: #fb6500;
+	padding-left: 5px;
+}
+ul{
+	float: right;
+	padding: 10px;
+	padding-left: 45px;
+	color: #429cd6;
+}
+p{
+	margin-left: 85px;
+	padding: 15px;
+	padding-top: 3px;
+}
+span{
+	color: #a3a5a8;
+}
+.title{
+	color: white;
+	font-size: 125px;
+	margin-left: 10px;
+	z-index: 2;
+}
